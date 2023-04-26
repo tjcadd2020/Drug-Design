@@ -1,0 +1,38 @@
+#moe 2001.01
+#system 8 tag t value *
+ViewOrientationY i* 3 0 1 0 ViewOrientationZ i* 3 0 0 1 ViewLookAt r* 3
+2.2165327 -0.0491061 -0.1479733 ViewScale r 19.3062382 ViewDepthCueFront
+r 0.45 ViewDepthCueStrength r 0.75 ViewZFront i 0 ViewZWidth i 1
+#molecule 3 tag t value *
+atoms i 24 residues i 1 chains i 1
+#bond 20 a i b i o i=1
+1 2 1 16 2 3 2 4 2 5 5 6 5 23 5 18 7 8 7 9 9 10 11 14 11 12 12 13 14 15
+16 17 19 20 19 21 21 22 21 23
+#bond 5 a i b i o i=2
+1 7 9 11 14 16 18 19 23 24
+#attr 24 ID i aName t aElement t aGeometry t aPosX r aPosY r aPosZ r
+1 C C sp2 4.1089125 0.2544373 0 2 C C sp3 5.3958262 0.9974373 0 3 H1 H
+sp3 5.4537017 1.6258168 0.8924341 4 H2 H sp3 5.4537419 1.6258131
+-0.8924341 5 C C sp3 6.4979517 0.0551956 -0.15 6 H H sp3 6.2460138
+0.2705852 -1.1883808 7 C C sp2 2.8791564 0.9644373 0 8 H H sp3 2.8791564
+2.0444373 0 9 C C sp2 1.6494003 0.2544373 0 10 H H sp3 0.7140929
+0.7944373 0 11 C C sp2 1.6494003 -1.1655627 0 12 O O sp3 0.4577494
+-1.8535627 0 13 H H sp3 0.5425519 -2.8228602 0 14 C C sp2 2.8791564
+-1.8755627 0 15 H H sp3 2.8791564 -2.9555627 0 16 C C sp2 4.1089125
+-1.1655627 0 17 H H sp3 5.0442199 -1.7055627 0 18 N N sp2 6.3795279
+-1.4401223 0.15 19 C C sp2 7.7650648 -2.0148287 -0.15 20 H H sp3
+7.9991759 -3.053775 -0.3293952 21 N N sp3 8.7397976 -0.8746989 -0.15 22
+H H sp3 9.7336283 -0.939925 -0.3177677 23 C C sp2 7.9566786 0.4046466
+0.15 24 O O sp2 8.3965229 1.4650497 -0.6823498
+#attr 2 ID i aHintLP i=1
+18 24
+#attr 1 ID i cResidueCount i cName t cHeader t cTag t cColorBy t cRGB ix
+26 1 $ $ $ c:number 0
+#attr 1 ID i rAtomCount i rName t rUID i rINS c rPos i rType t
+25 24 * 0 ! 0 none
+#attr 1 ID i rRGB ix rColorBy t rSegment t
+25 0 r:rgb none
+#attr 1 ID i rRibbonWidth r rRibbonHeight r rRibbonColorBy t rRibbonMode t
+25 0 0 r:aseg none
+#endmolecule
+#endsystem
